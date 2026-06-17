@@ -36,14 +36,24 @@
 # print (f"Water is ready")
 
 
-flavors = ["lemon", "mint","herbal","honey", "out of stock","discontinued"]
+# flavors = ["lemon", "mint","herbal","honey", "out of stock","discontinued"]
 
-for flavor in flavors:
-    if flavor =="out of stock":
-        continue
-    if flavor == "discontinued":
-        break
-print(f"Discontinued item found")   
-print (f"Outside of loop") 
+# for flavor in flavors:
+#     if flavor =="out of stock":
+#         continue
+#     if flavor == "discontinued":
+#         break
+#     print(f"{flavor} item found")   
+# print (f"Outside of loop") 
+
+
+# staff = [("Alex",17), ("Brad",16),("Anna",12)]
+
+# for name, age in staff:
+#     if age <= 18:
+#         print(f"{name} is eligible to manage the staff")
+#         break
+# else:
+#     print(f"No one is eligible to manage the staff")
 
 
