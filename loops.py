@@ -1,0 +1,49 @@
+
+# for token in range (1,11):
+#     print(f"Serving chai to token #{token}")
+
+
+
+# for batch in range (1,5):
+#     print (f"Preparing chai for batch #{batch}")
+
+
+# orders = ["Alex", "Rick","Anna", "Laura","John"]
+
+# for name in orders:
+#     print(f"Order ready for {name}")
+
+
+# menu = ["Green","Black", "Bergamot", "Lemon", "Ginger","Herbal"]
+
+# for index, item in enumerate (menu, start=1):
+#     print(f"{index} : {item} chai")
+
+
+# names = ["Alex","Sam","Anna","Laura"]
+
+# bills = [100,75,300,50]
+
+# for name , amount in zip(names,bills):
+#     print(f"{name} paid {amount} dollars")
+
+
+# temperature = 40
+
+# while temperature < 100:
+#     print(f"Current temperature: {temperature}")
+#     temperature +=15
+# print (f"Water is ready")
+
+
+flavors = ["lemon", "mint","herbal","honey", "out of stock","discontinued"]
+
+for flavor in flavors:
+    if flavor =="out of stock":
+        continue
+    if flavor == "discontinued":
+        break
+print(f"Discontinued item found")   
+print (f"Outside of loop") 
+
+
